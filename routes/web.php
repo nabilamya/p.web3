@@ -14,11 +14,3 @@ Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard
 // Routes untuk List Item (Orang ke-3)
 Route::get('/list-item', [ListItemController::class, 'index'])->name('list.item');
 
-Route::get('/pencarian', function () {
-    return view('hal_pencarian');
-});
-
-Route::get('/register', function () {
-    return view('halaman_register');
-});
-
